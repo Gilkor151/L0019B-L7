@@ -1,0 +1,116 @@
+nav {
+    width: 350px !important;
+    min-width: 350px !important;
+    max-width: 350px !important;
+    height: 100%;
+    background-color: #f8f9fa;
+    float: left;
+    padding: 0 16px;
+}
+
+main {
+    width: calc(100% - 350px);
+    margin-left: 350px;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+#features {
+    overflow-x: hidden;
+    margin: 16px 0;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+#error-container {
+    top: 40px;
+    right: 10px;
+    z-index: 999;
+    position: absolute;
+}
+
+#transparencyContainer {
+    position: absolute;
+}
+
+.transition-enabled {
+    transition: top 0.2s ease;
+}
+
+.popup-card {
+    width: 800px;
+    max-height: 300px;
+    overflow: hidden;
+    user-select: none;
+}
+
+.tab-content {
+    max-height: 232px;
+    width: 468px;
+    overflow-y: auto;
+}
+
+.popup-card-text {
+    overflow-y: hidden;
+}
+
+.card-body {
+    padding: 5px 0px 0px 0px;
+}
+
+.card-text div {
+    max-height: 500px;
+    user-select: none;
+}
+
+.nav-tabs .nav-link:last-child {
+    margin-right: 20px;
+}
+
+.nav-tabs .nav-link:first-child {
+    color: #000000;
+    cursor: default !important;
+}
+
+.nav-tabs .nav-link:first-child:hover {
+    cursor: default !important;
+}
+
+.list-group {
+    --bs-list-group-border-radius: 0 !important;
+    --bs-card-inner-border-radius: 0 !important;
+    overflow-y: hidden;
+}
+
+.popup-card-text img {
+    width: 100%;
+    height: 100%;
+}
+
+#nav-review {
+    padding: 10px;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.img-container .img-footer {
+    position: absolute;
+    bottom: 0; left: 0;
+    padding: 4px 0 4px 20px;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+}
